@@ -31,8 +31,8 @@ function myButtonClicked() {
   
   // process and output
   if (tuesday == true || thursday == true && age > 12 && age < 21) {
-    document.getElementById("museum").innerHTML = 'You can get free admission at the museum!'
+    document.getElementById("museum").innerHTML = 'You have to pay student admission at the museum!'
   } else {
-    document.getElementById("museum").innerHTML = 'You have to pay admission at the museum!'
+    document.getElementById("museum").innerHTML = 'You have to pay regular admission at the museum!'
   }
 }
